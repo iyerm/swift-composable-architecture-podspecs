@@ -23,4 +23,5 @@ Pod::Spec.new do |spec|
   spec.dependency "_SwiftUINavigationState"
   spec.dependency "XCTestDynamicOverlay"
   spec.dependency "ComposableArchitectureDependencies"
+  spec.dependency "Dependencies"
 end
