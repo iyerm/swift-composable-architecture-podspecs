@@ -1,5 +1,5 @@
 Pod::Spec.new do |spec|
-  spec.name         = "_SwiftUINavigationState"
+  spec.name         = "SwiftUINavigationCore"
   spec.version      = "1.0.0"
   spec.summary      = "Tools for making SwiftUI navigation simpler, more ergonomic and more precise."
   spec.homepage     = "https://github.com/pointfreeco/swiftui-navigation"
@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   # spec.watchos.deployment_target = "6.0"
 
   spec.source       = { :git => "https://github.com/pointfreeco/swiftui-navigation.git", :tag => "#{spec.version}" }
-  spec.source_files = "Sources/_SwiftUINavigationState/**/*.swift"
+  spec.source_files = "Sources/SwiftUINavigationCore/**/*.swift"
   spec.dependency "CasePaths"
   spec.dependency "CustomDump"
 end
